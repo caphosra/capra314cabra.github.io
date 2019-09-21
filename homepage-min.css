@@ -1,22 +1,27 @@
 body{
-    background-color: rgb(36, 36, 36);
-}.bottom{
-    text-align: right;
+    background-color: transparent;
+}::selection {
+    background: rgb(255, 202, 56);
+}.main-content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
 
-    width: 300px;
-    margin: 30px 50px 0px auto;
-
-    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: transparent;
 }
 
 @media screen and (max-width: 1000px) {
-    .bottom{
-        margin: 10px 20px 0px auto;
+    .main-content{
+        margin: 0 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+
+        box-shadow: 0 0 0 0 transparent;
     }
 }
-.comments{
-    margin-top: 50px;
-}/*
+/*
     h1
 */
 
@@ -40,6 +45,7 @@ body{
 
 h1{
     border-bottom: solid rgb(19, 113, 255) 5px;
+    font-size: 1.7em;
 }
 
 h1:hover{
@@ -59,6 +65,7 @@ h1:hover{
 
 h2{
     border-bottom: solid rgb(255, 200, 19) 3px;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -81,24 +88,6 @@ p{
     }
 }
 /*
-    header
-*/
-
-.header{
-    display: inline-block;
-
-    padding: 30px;
-}
-
-/*
-    menu
-*/
-
-.menu{
-    display: inline-block;
-}
-
-/*
     title
 */
 
@@ -112,9 +101,46 @@ p{
         height: 30px;
         padding: 0px;
     }
+}/*
+    producedBy
+*/
+
+.producedBy{
+    display: inline-block;
+    text-align: right;
 }
 
-/*
+@media screen and (max-width: 1000px) {
+    .producedBy{
+        display: block;
+    }
+}/*
+    menu
+*/
+
+.menu{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu{
+        display: none;
+    }
+}/*
+    header
+*/
+
+.header{
+    display: inline-block;
+
+    padding: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header{
+        padding: 5px;
+    }
+}/*
     a.internal-link
 */
 
@@ -145,20 +171,27 @@ a.internal-link:hover{
     a.internal-link{
         margin: 5px;
     }
-}
-.main-content{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px 50px 10px 50px;
-    border-radius: 30px;
+}/*
+    comments
+*/
 
-    background-color: whitesmoke;
+.comments{
+    margin-top: 50px;
+}/*
+    bottom
+*/
+
+.bottom{
+    text-align: right;
+
+    width: 300px;
+    margin: 30px 50px 0px auto;
+
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {
-    .main-content{
-        margin: 0 10px 10px 10px;
-        padding: 10px 10px 10px 10px;
-        border-radius: 10px;
+    .bottom{
+        margin: 10px 20px 0px auto;
     }
 }
