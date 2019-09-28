@@ -46,10 +46,31 @@ body{
     height: 128px;
 }
 
+.mylink_content{
+    display: flex;
+    flex-direction: column;
+}
+
 .mylink_text{
-    margin: 20px;
+    margin: 10px 10px 5px 10px;
+    padding: 5px;
+    font-size: 1.1em;
 
     text-decoration: none;
+}
+
+.mylink_description{
+    margin: 5px 5px 5px 10px;
+    padding: 5px;
+    font-size: 0.9em;
+
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mylink_description{
+        display: none;
+    }
 }/*
     h1
 */
