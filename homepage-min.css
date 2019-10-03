@@ -1,8 +1,4 @@
-body{
-    background-color: transparent;
-}::selection {
-    background: rgb(255, 202, 56);
-}.main-content{
+.main-content{
     max-width: 800px;
     margin: 0 auto;
     padding: 10px 50px 20px 50px;
@@ -21,7 +17,9 @@ body{
         box-shadow: 0 0 0 0 transparent;
     }
 }
-.mylink{
+body{
+    background-color: transparent;
+}.mylink{
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -137,32 +135,45 @@ p{
         padding: 5px;
     }
 }
-/*
-    title
-*/
-
-.title{
-    background: transparent;
-}
-
-@media screen and (max-width: 1000px) {
-    .title{
-        width: 300px;
-        height: 30px;
-        padding: 0px;
-    }
+::selection {
+    background: rgb(255, 202, 56);
 }/*
-    producedBy
+    bottom
 */
 
-.producedBy{
-    display: inline-block;
+.bottom{
     text-align: right;
+
+    width: 300px;
+    margin: 30px 50px 0px auto;
+
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {
-    .producedBy{
-        display: block;
+    .bottom{
+        margin: 10px 20px 0px auto;
+    }
+}
+/*
+    comments
+*/
+
+.comments{
+    margin-top: 50px;
+}/*
+    header
+*/
+
+.header{
+    display: inline-block;
+
+    padding: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header{
+        padding: 5px;
     }
 }/*
     menu
@@ -177,18 +188,17 @@ p{
         display: none;
     }
 }/*
-    header
+    producedBy
 */
 
-.header{
+.producedBy{
     display: inline-block;
-
-    padding: 30px;
+    text-align: right;
 }
 
 @media screen and (max-width: 1000px) {
-    .header{
-        padding: 5px;
+    .producedBy{
+        display: block;
     }
 }/*
     a.internal-link
@@ -222,26 +232,17 @@ a.internal-link:hover{
         margin: 5px;
     }
 }/*
-    comments
+    title
 */
 
-.comments{
-    margin-top: 50px;
-}/*
-    bottom
-*/
-
-.bottom{
-    text-align: right;
-
-    width: 300px;
-    margin: 30px 50px 0px auto;
-
-    color: white;
+.title{
+    background: transparent;
 }
 
 @media screen and (max-width: 1000px) {
-    .bottom{
-        margin: 10px 20px 0px auto;
+    .title{
+        width: 300px;
+        height: 30px;
+        padding: 0px;
     }
 }
