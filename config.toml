@@ -1,0 +1,63 @@
+baseURL = "https://capra314cabra.github.io/"
+theme = "beautifulhugo"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+paginate = 5
+
+title = "Capra as Programmer"
+
+#
+# Bilingual
+#
+DefaultContentLanguage = "ja"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 10
+  [languages.ja]
+    languageName = "Japanese"
+    weight = 20
+
+#
+# Menu contents
+#
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  url = "/"
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 40
+[[menu.main]]
+  name = "Github"
+  weight = 50
+  url = "https://github.com/capra314cabra"
+
+#
+# Site information
+#
+[params]
+  logo = "/images/capra314cabra.png"
+
+  rss = true
+  useHLJS = true
+
+[author]
+  name = "capra314cabra"
+  website = "capra314cabra.github.io"
+  email = "capra314cabra@gmail.com"
+  github = "capra314cabra"
+
+#
+# https://utteranc.es/
+#
+[params.utterances]
+  #
+  # Github
+  #
+  owner = "capra314cabra"
+  repo = "capra314cabra.github.io"
