@@ -1,0 +1,27 @@
+trigger:
+- master
+
+variables:
+  hugoPackagePath: "https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_0.59.1_Linux-64bit.deb"
+  hugoPackageName: "hugo_0.59.1_Linux-64bit.deb"
+
+pool:
+  vmImage: "ubuntu-latest"
+steps:
+- script: |
+    wget $(hugoPackagePath)
+    sudo dpkg -i $(hugoPackageName)
+    hugo version
+  displayName: "Install Hugo"
+- script: |
+    chmod +x configure.sh
+    ./configure.sh
+  displayName: "Setup project"
+- script: |
+    hugo
+  displayName: "Build site"
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: "./public"
+    ArtifactName: "Homepage"
+  displayName: "Publish all"
