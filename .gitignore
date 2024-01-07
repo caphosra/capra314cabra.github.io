@@ -12,3 +12,8 @@
 /resources
 /public
 /themes/beautifulhugo
+
+#
+# Hugo
+#
+.hugo_build.lock
