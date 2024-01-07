@@ -8,23 +8,24 @@ draft: false
 ispage: true
 ---
 
-ここでは、私が作ったゲーム(?)を公開しています。サムネをタッチすると遊べます。  
-楽しんでくれたら嬉しいです。  
-WebGLで作られているゲームはスマホではプレイできないので注意です!
+# Games
 
-## Aimed Thief
+ここでは, 私が作った過去に作ったゲームです. サムネイルをクリックすると遊べます.  
+**面白さと完成度の保証はしません.**
+
+## Aimed Thief (2019)
 
 <a href="{{< ref "/archives/aimed-thief" >}}">
     <img src="/images/archives/aimed-thief-thumb.png" alt="Aimed Thief Thumbnail" class="center" width="640" height="360" />
 </a>
 
-横スクロールのシューティングゲームです。  
+FC版のグラディウスに強く影響を受けて作った横スクロールのシューティングゲームです。  
 宇宙を漂っている敵の基地から、盗んだコンテナを持って逃げ出しましょう!  
 壁に激突すると即死なので注意してください...
 
 このゲームはオープンソースです:[GitHub](https://github.com/caphosra/AimedThief)
 
-## 混沌の格闘家
+## 混沌の格闘家 (2019?)
 
 <a href="{{< ref "/archives/fighter-of-chaos" >}}">
     <img src="/images/archives/fighter-of-chaos-thumb.png" alt="Fighter Of Chaos Thumbnail" class="center" width="640" height="360" />
@@ -34,7 +35,7 @@ WebGLで作られているゲームはスマホではプレイできないので
 話し合いで解決できない世界ではこんなことになってしまいます。  
 地味にパンチ出来ます。
 
-## GATAGATA Mental Shooting
+## GATAGATA Mental Shooting (2018?)
 
 <a href="{{< ref "/archives/gatagata" >}}">
     <img src="/images/archives/gatagata-thumb.jpg" alt="GATAGATA Mental Shooting Thumbnail" class="center" width="640" height="360" />
