@@ -106,9 +106,9 @@ enableRobotsTXT = true
             url = "tags/"
 
             [[languages.ja.menu.main]]
-            name = "Games"
+            name = "Archives"
             weight = 4
-            url = "games/"
+            url = "archives/"
 
             [[languages.ja.menu.main]]
             name = "GitHub"
@@ -133,11 +133,6 @@ enableRobotsTXT = true
             name = "Blog"
             weight = 2
             url = "posts/"
-
-            # [[languages.en.menu.main]]
-            # name = "Games"
-            # weight = 3
-            # url = "games/"
 
             [[languages.en.menu.main]]
             name = "Tags"
