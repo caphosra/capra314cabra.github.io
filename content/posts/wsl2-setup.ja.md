@@ -8,10 +8,6 @@ tags: ["WSL2"]
 draft: false
 ---
 
-
-<img src="https://miro.medium.com/max/1326/1*Hv7hbkxpOsNyzt5-Pv8FJQ.png" alt="Windows settings" class="center" width="650" height="400" />
-(Quote from Medium)
-
 Windows上でLinuxをエミュレートしてくれるWSLが進化を遂げ...  
 遂にWSL2が使用出来るようになりました!やったね!  
 
@@ -40,9 +36,9 @@ Microsoftアカウントを持っていると登録は一瞬で終わります�
 
 続いて設定を開きます。そして"更新とセキュリティ"をクリック。
 
-<img src="https://caphosra.github.io/images/wsl2-setup/settings.jpg" alt="Windows settings" class="center" width="900" height="300" />
+<img src="/images/wsl2-setup/settings.jpg" alt="Windows settings" class="center" width="900" height="300" />
 
-<img src="https://caphosra.github.io/images/wsl2-setup/windows-insider-program.jpg" alt="Windows Insider Program" class="center" width="300" height="600" />
+<img src="/images/wsl2-setup/windows-insider-program.jpg" alt="Windows Insider Program" class="center" width="300" height="600" />
 
 "Windows Insider Program"をクリックして、ログインしてください。  
 Insiderの設定は"スロー"で問題ないと思います。  
@@ -68,7 +64,7 @@ WSLを既にインストールしているよ、という方はここをスル�
 このサイトに飛んで、WSL2のカーネルを入手します。  
 ダウンロードしてきたインストーラーを実行しましょう!
 
-<img src="https://caphosra.github.io/images/wsl2-setup/update-setup.jpg" alt="WSL2 Kernel Installer" class="center" width="450" height="360" />
+<img src="/images/wsl2-setup/update-setup.jpg" alt="WSL2 Kernel Installer" class="center" width="450" height="360" />
 
 インストールが終わったら長かったWSL2セットアップももうすぐおしまいです。  
 好きなターミナルを開いて以下のコマンドを打ち込んで実行してください!
@@ -76,7 +72,7 @@ WSLを既にインストールしているよ、という方はここをスル�
 ```
 wsl --set-default-version 2
 ```
-<img src="https://caphosra.github.io/images/wsl2-setup/command-prompt.jpg" alt="Running command" class="center" width="860" height="210" />
+<img src="/images/wsl2-setup/command-prompt.jpg" alt="Running command" class="center" width="860" height="210" />
 
 おめでとうございます!これであなたもWSL2デビュー!
 

@@ -8,8 +8,6 @@ tags: ["CSharp"]
 keyword: "C#,using,C#8.0,IDisposable"
 ---
 
-<img src="/images/CSlogo.svg" alt="C# icon" class="center" width="256" height="256" />
-
 今回はC#で欠かせない存在の`using`の使い方を四つに分けて紹介したいと思います。  
 早速、始めていきましょう!
 

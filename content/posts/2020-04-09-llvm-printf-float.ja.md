@@ -201,7 +201,7 @@ module->print(*stream, nullptr);
 
 `lli`がインストールされていない方は、以下を参考にしてください。
 
-[LLVMをWindowsで使いたくて入れたらlliなかった話](https://caphosra.github.io/posts/llvm-lli-install/)
+[LLVMをWindowsで使いたくて入れたらlliなかった話]({{< ref "/posts/llvm-lli-install" >}})
 
 ``` bash
 $ lli test.ll

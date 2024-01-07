@@ -215,7 +215,7 @@ You can check [full code](#full-code) if you want.
 After running this C++ code, you should get an LLVM IR file named `test.ll` in the same directory.  
 Now let's run the LLVM IR file using `lli`.
 
-(If you haven't installed `lli` yet, please read [Install lli, a tool of LLVM, to Windows](https://caphosra.github.io/en/posts/llvm-lli-install/).)
+(If you haven't installed `lli` yet, please read [Install lli, a tool of LLVM, to Windows]({{< ref "/posts/llvm-lli-install" >}}).)
 
 ``` bash
 # Real
