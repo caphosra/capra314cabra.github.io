@@ -1,11 +1,11 @@
 ---
-title: "[Today's C# tips] #3 C#を対話形式で実行しよう"
+title: "[C# tips] #3 C#を対話形式で実行しよう"
 date: 2020-05-24T06:36:13+09:00
 description: "簡単な計算をする時にPythonを使っていませんか?対話形式で実行するのはとても便利ですよね。しかし、これと同じことはC#でも出来るのです。"
 keyword: "C#,tips,today,対話形式,動的実行"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp"]
-series: ["Todays CSharp tips"]
+series: ["CSharp tips"]
 draft: false
 ---
 

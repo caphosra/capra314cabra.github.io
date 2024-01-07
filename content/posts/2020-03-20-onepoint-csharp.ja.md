@@ -1,11 +1,11 @@
 ---
-title: "[Today's C# tips] #1 C#でSQLみたいな構文?"
+title: "[C# tips] #1 C#でSQLみたいな構文?"
 date: 2020-03-30T16:26:36+09:00
 description: "記念すべき初回は、C#で配列をSQLのような構文で書くことができるという、案外知られていないことを紹介したいと思います。"
 keyword: "C#,tips,today,linq,sql"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp"]
-series: ["Todays CSharp tips"]
+series: ["CSharp tips"]
 draft: false
 ---
 

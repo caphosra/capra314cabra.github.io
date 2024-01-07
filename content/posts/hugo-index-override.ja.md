@@ -3,7 +3,7 @@ title: "Hugoで_index.mdの仕様を変更した話"
 date: 2020-03-12T10:35:31+09:00
 description: "Hugoで_index.mdは標準では限られたコンテンツしか許されていないので、それを改造してみる、という話です。"
 keyword: "hugo,index.md,_index.md,not list,override"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["Hugo"]
 draft: false
 ---
@@ -107,7 +107,7 @@ Hugoにおいて、`_index.md`は、他のページへの __道しるべの役�
 1. まず、Hugoで作業しているディレクトリに行きます。
 2. 以下のようなディレクトリとファイルを作成します。パスでかけば、`layouts/_default/list.html`です。
 
-<img src="https://capra314cabra.github.io/images/hugo-index-override-exp.jpg" alt="Example directory" class="center" width="240" height="60" />
+<img src="https://caphosra.github.io/images/hugo-index-override-exp.jpg" alt="Example directory" class="center" width="240" height="60" />
 
 3. `layouts/_default/list.html`を以下のように書き換えます。
 

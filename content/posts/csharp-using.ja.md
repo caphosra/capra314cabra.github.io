@@ -3,12 +3,12 @@ title: "C#でのusingの使い方を4つ紹介"
 date: 2019-11-16T16:40:39+09:00
 description: "C#で欠かせない存在の\"using\"の使い方を四つに分けて紹介したいと思います。"
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["CSharp"]
 keyword: "C#,using,C#8.0,IDisposable"
 ---
 
-<img src="https://capra314cabra.github.io/images/CSlogo.svg" alt="C# icon" class="center" width="256" height="256" />
+<img src="https://caphosra.github.io/images/CSlogo.svg" alt="C# icon" class="center" width="256" height="256" />
 
 今回はC#で欠かせない存在の`using`の使い方を四つに分けて紹介したいと思います。  
 早速、始めていきましょう!
@@ -79,7 +79,7 @@ double ans = Sqrt(radius * radius * PI);
 
 ## 名前を変えるusing
 
-ある日、capra314cabra君は以下のようなを実装しました。
+ある日、caphosra君は以下のようなを実装しました。
 
 ``` c#
 namespace CapraLib

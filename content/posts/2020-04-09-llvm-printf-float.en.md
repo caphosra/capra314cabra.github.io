@@ -3,7 +3,7 @@ title: "[LLVM] How to show a float value by using printf"
 date: 2020-05-02T11:39:02+09:00
 description: "Generate LLVM IR that displays the float type variable by using LLVM's C++ API."
 keyword: "llvm,printf,float,ir,c++"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CPlusPlus", "LLVM"]
 draft: false
 ---
@@ -215,7 +215,7 @@ You can check [full code](#full-code) if you want.
 After running this C++ code, you should get an LLVM IR file named `test.ll` in the same directory.  
 Now let's run the LLVM IR file using `lli`.
 
-(If you haven't installed `lli` yet, please read [Install lli, a tool of LLVM, to Windows](https://capra314cabra.github.io/en/posts/llvm-lli-install/).)
+(If you haven't installed `lli` yet, please read [Install lli, a tool of LLVM, to Windows](https://caphosra.github.io/en/posts/llvm-lli-install/).)
 
 ``` bash
 # Real
@@ -285,5 +285,5 @@ In conclusion, all we have to do is to remember this sentence:
 
 ## Full code
 
-https://gist.github.com/capra314cabra/9cd38e8658bb2d07cb9306b73435fada
+https://gist.github.com/caphosra/9cd38e8658bb2d07cb9306b73435fada
 

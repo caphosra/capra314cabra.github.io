@@ -16,7 +16,7 @@ Nullcon HackIM 2020に出たのでそのWrite upでも書こうかなーと思�
 
 ### 問題の見た目
 
-<img src="https://capra314cabra.github.io/images/hackim2020-game.jpg" alt="Game scene" class="center" width="500" height="300" />
+<img src="https://caphosra.github.io/images/hackim2020-game.jpg" alt="Game scene" class="center" width="500" height="300" />
 
 Unity製のGameで、このNPC(白い敵)を1体以上倒すとFlagを手に入れられる、とあります。  
 Playerは剣と体当たり(接触)することでNPCにダメージを与えられますが、敵のHPがとても高く、現実的な時間に倒せないようになっています。

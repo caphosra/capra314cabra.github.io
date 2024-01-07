@@ -3,14 +3,14 @@ title: "Create a button whose background is filled by images on Avalonia UI"
 date: 2020-03-31T11:34:47+09:00
 description: "I will describe how to create a button whose background is filled by images on a crossplatform GUI library, Avalonia UI."
 keyword: "Avalonia,button,image,picture,C#"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp", "Avalonia", "WPF"]
 draft: false
 ---
 
 On this article, I will describe how to create a button whose background is filled by images on a crossplatform GUI library, Avalonia UI.
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
 
 I had a harder time to make it than I had expected. I beleive that this saves your time.
 
@@ -127,7 +127,7 @@ To achieve to create a button we expected, we use `ImageBrush`, which can draw a
 </UserControl>
 ```
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonClick1.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonClick1.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
 
 There is a border which is not needed. Setting the value `BorderThickness` as zero have it deleted.
 
@@ -153,7 +153,7 @@ Like CSS, you can implement the style changes corresponding user actions by sele
 Note that it is `pointerover`, not `hover`.  
 After it applies, the button would be:
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonHover.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonHover.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
 
 ## Style changes while user clicking
 
@@ -176,7 +176,7 @@ Write `Button.ImageButton:pressed /template/ ContentPresenter` or it would __NOT
 
 After all, we make it.
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
 
 If you know better ways, please let me know.
 

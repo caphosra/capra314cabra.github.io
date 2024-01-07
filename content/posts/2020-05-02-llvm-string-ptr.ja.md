@@ -3,7 +3,7 @@ title: "[LLVM] CreateGlobalStringPtrがクラッシュするときの対処法"
 date: 2020-05-02T06:12:01+09:00
 description: "CreateGlobalStringPtrをif文のブロックの中で失敗したので、それを解決する方法をご紹介します。"
 keyword: "CreateGlobalStringPtr,LLVM,失敗,クラッシュ,エラー"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["LLVM", "CPlusPlus"]
 draft: false
 ---

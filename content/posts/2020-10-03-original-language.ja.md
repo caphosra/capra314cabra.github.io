@@ -3,7 +3,7 @@ title: "自作言語を作るまでに使えるツールたち"
 date: 2020-10-03T21:36:42+09:00
 description: "初めて自作言語を作ったのでその時に得られた知見と使用したものを共有したいと思います。"
 keyword: "自作言語,llvm,antlr4,flex,bison,ast,kaprino"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["LLVM", "CPlusPlus", "Kaprino", "Antlr4"]
 draft: false
 ---

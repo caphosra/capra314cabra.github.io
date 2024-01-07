@@ -3,7 +3,7 @@ title: "[LLVM] printfでFloat型の足し算の結果を表示する"
 date: 2020-04-09T13:06:28+09:00
 description: "LLVMのC++ APIを使用し、printfを呼び出してfloat型の変数を表示するLLVM IRを出力するまで行います。"
 keyword: "llvm,printf,float,ir,c++"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CPlusPlus", "LLVM"]
 draft: false
 ---
@@ -201,7 +201,7 @@ module->print(*stream, nullptr);
 
 `lli`がインストールされていない方は、以下を参考にしてください。
 
-[LLVMをWindowsで使いたくて入れたらlliなかった話](https://capra314cabra.github.io/posts/llvm-lli-install/)
+[LLVMをWindowsで使いたくて入れたらlliなかった話](https://caphosra.github.io/posts/llvm-lli-install/)
 
 ``` bash
 $ lli test.ll
@@ -264,7 +264,7 @@ int main() {
 
 ソースコード全文と出力されたLLVM IRは以下から見ることができます。
 
-[コード全文](https://gist.github.com/capra314cabra/9cd38e8658bb2d07cb9306b73435fada)
+[コード全文](https://gist.github.com/caphosra/9cd38e8658bb2d07cb9306b73435fada)
 
 ## まとめ
 

@@ -3,7 +3,7 @@ title: "Avalonia UIで画像を使ったボタンを作成する方法"
 date: 2020-03-29T10:17:52+09:00
 description: "Avalonia UIというC#のCross PlatformなGUIライブラリで、画像を使ったボタンを作るのは知らないと厳しいものなので、作り方を教えます。"
 keyword: "Avalonia,画像,ボタン,C#"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp", "Avalonia", "WPF"]
 draft: false
 ---
@@ -124,7 +124,7 @@ Avaloniaの魅力として、エレメントと別にデザインを記述する
 
 このようにすると以下のようになります。
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonClick1.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonClick1.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
 
 枠部分が消えていないので、Styleで変更していきましょう。BorderThicknessの値がDefaultで0ではないので0にして、枠線を消します。
 
@@ -153,7 +153,7 @@ CSSを使ったことのある人は`[Classの名前]:[動作]`で記述する�
 ただ、`hover`ではなく`pointerover`であることに注意です!  
 ここまでやるとこんな感じです。
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonHover.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonHover.gif" alt="On button clicked (failed)" class="center" width="462" height="162" />
 
 ## Click時の見た目を変更
 
@@ -178,7 +178,7 @@ Avalonia UIのGitterの履歴を漁ってこの方法にたどり着いたので
 
 これで、画像を用いたボタンの作り方は完結です!
 
-<img src="https://capra314cabra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
+<img src="https://caphosra.github.io/images/2020-03-29/ButtonClick2.gif" alt="On button clicked (Successed)" class="center" width="438" height="211" />
 
 ## コード全文
 

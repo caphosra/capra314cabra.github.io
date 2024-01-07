@@ -3,7 +3,7 @@ title: "How to use 'sudo' in Powershell"
 date: 2019-12-12T10:47:01+09:00
 description: "We know that sudo command on bash is so useful and there is no command like that on Powershell. I will explain how to implement a command like sudo."
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["Powershell"]
 keyword: "sudo,powershell"
 ---

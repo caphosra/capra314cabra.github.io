@@ -3,7 +3,7 @@ title: "Install lli, a tool of LLVM, to Windows"
 date: 2020-03-08T09:12:43+09:00
 description: "I had missed to install lli, a tool of LLVM, to Windows so I want you not to miss it like me."
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["CPlusPlus", "LLVM"]
 keyword: "LLVM,Windows,lli,llc,llvm-as"
 ---
