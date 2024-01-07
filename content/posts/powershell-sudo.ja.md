@@ -3,7 +3,7 @@ title: "Powershellでsudoしてみたい話"
 date: 2019-12-11T22:28:26+09:00
 description: "PowershellでBashでいうsudoのような管理者権限で実行できるようにする方法を紹介します"
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["Powershell"]
 keyword: "sudo,powershell"
 ---

@@ -1,6 +1,6 @@
 
-baseurl = "https://capra314cabra.github.io"
-title = "Capra Cabra Notes"
+baseurl = "https://caphosra.github.io"
+title = "caphosra note"
 
 theme = "hugo-coder"
 
@@ -22,21 +22,21 @@ enableRobotsTXT = true
     unsafe= true
 
 [params]
-    author = "capra314cabra"
-    description = "This is a capra314cabra's blog and have a lot of contents about programming."
-    keywords = "capra314cabra,programming,プログラミング,c#,developer,note,blog,personal"
-    info = "Wanna be a developer improving our lives."
-    avatarurl = "/images/capra314cabra.jpg"
-    footercontent = "Wanna be a developer improving our lives."
+    author = "caphosra"
+    description = "caphosraが日々のプログラミングで学んだこと考えたことをただ書き連ねる場です."
+    keywords = "caphosra,programming,プログラミング,developer,note,blog,personal"
+    info = "理論計算機科学 見習い"
+    footercontent = "Footer? なにそれ美味しいの?"
+    avatarurl = "/images/icon.webp"
 
     dateformat = "January 2, 2006"
 
     hideCredits = false
     hideCopyright = false
-    since = 2020
+    since = 2019
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/capra314cabra/capra314cabra.github.io/tree/master"
+    commit = "https://github.com/caphosra/caphosra.github.io/tree/master"
 
     rtl = false
 
@@ -57,10 +57,10 @@ enableRobotsTXT = true
     custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/vs2015.min.css"]
 
     # Custom JS
-    custom_js = ["https://cdn.jsdelivr.net/npm/gist-embed@1.0.3/dist/gist-embed.min.js", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"]
+    custom_js = ["https://cdn.jsdelivr.net/npm/gist-embed@1.0.3/dist/gist-embed.min.js", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"]
 
 [params.utteranc]
-    repo = "capra314cabra/capra314cabra.github.io"
+    repo = "caphosra/caphosra.github.io"
 
 [taxonomies]
     category = "categories"
@@ -71,26 +71,59 @@ enableRobotsTXT = true
     name = "Github"
     icon = "icon fab fa-github"
     weight = 1
-    url = "https://github.com/capra314cabra/"
+    url = "https://github.com/caphosra/"
 [[params.social]]
-    name = "Medium"
-    icon = "icon fab fa-medium"
+    name = "Twitter (X)"
+    icon = "icon fab fa-x-twitter"
     weight = 2
-    url = "https://medium.com/@capra314cabra"
+    url = "https://twitter.com/caphosra/"
 [[params.social]]
     name = "RSS"
     icon = "icon fas fa-rss"
     weight = 3
-    url = "https://capra314cabra.github.io/index.xml"
+    url = "https://caphosra.github.io/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
 [languages]
+    [languages.ja]
+        languagename = "日本語"
+
+        [languages.ja.menu]
+            [[languages.ja.menu.main]]
+            name = "About"
+            weight = 1
+            url = "/"
+
+            [[languages.ja.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.ja.menu.main]]
+            name = "Tags"
+            weight = 3
+            url = "tags/"
+
+            [[languages.ja.menu.main]]
+            name = "Archives"
+            weight = 4
+            url = "archives/"
+
+            [[languages.ja.menu.main]]
+            name = "GitHub"
+            weight = 5
+            url = "https://github.com/caphosra"
+
     [languages.en]
         languagename = "English"
 
+        [languages.en.params]
+            description = "This is a caphosra's blog and most of the contents are related to programming."
+            footercontent = "Footer...? I don't know what it is."
+            info = "Struggling with theoretical computer science"
+
         [languages.en.menu]
-
             [[languages.en.menu.main]]
             name = "About"
             weight = 1
@@ -102,47 +135,10 @@ enableRobotsTXT = true
             url = "posts/"
 
             [[languages.en.menu.main]]
-            name = "Games"
-            weight = 3
-            url = "games/"
-
-            [[languages.en.menu.main]]
             name = "Tags"
             weight = 4
             url = "tags/"
             [[languages.en.menu.main]]
             name = "GitHub"
             weight = 5
-            url = "https://github.com/capra314cabra"
-
-
-    [languages.ja]
-        languagename = "日本語"
-        title = "Capra Cabra Notes"
-
-        [languages.ja.menu]
-
-            [[languages.ja.menu.main]]
-            name = "About"
-            weight = 1
-            url = "/"
-
-            [[languages.ja.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.ja.menu.main]]
-            name = "Games"
-            weight = 3
-            url = "games/"
-
-            [[languages.ja.menu.main]]
-            name = "Tags"
-            weight = 4
-            url = "tags/"
-
-            [[languages.ja.menu.main]]
-            name = "GitHub"
-            weight = 5
-            url = "https://github.com/capra314cabra"
+            url = "https://github.com/caphosra"

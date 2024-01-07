@@ -3,7 +3,7 @@ title: "LLVMをWindowsで使いたくて入れたらlliなかった話"
 date: 2020-03-07T12:54:53+09:00
 description: "LLVMのツールたちをWindowsにインストールするまでの話です。生温かい目でご覧ください。"
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["CPlusPlus", "LLVM"]
 keyword: "LLVM,Windows,lli,llc,llvm-as"
 ---

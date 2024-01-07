@@ -12,11 +12,11 @@ draft: false
 
 <div id="unityContainer"></div>
 
-このゲームはOpen-Sourceです! [GitHub](https://github.com/capra314cabra/AimedThief)  
+このゲームはOpen-Sourceです! [GitHub](https://github.com/caphosra/AimedThief)  
 撃つ: Space, 移動: WASD or 矢印キー
 
 <script src="https://utteranc.es/client.js"
-    repo= "capra314cabra/capra314cabra.github.io"
+    repo= "caphosra/caphosra.github.io"
     issue-term="title"
     label="comments"
     theme="github-light"

@@ -3,7 +3,7 @@ title: "C++で全てのstd::minやstd::maxにエラーが出た時の対処法"
 date: 2020-07-14T21:53:29+09:00
 description: "C++のWindows環境で`std::min`と`std::max`というポピュラーな関数がエラーになる時の解決策です"
 keyword: "c++,max,min,windows,windef,std"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CPlusPlus"]
 draft: false
 ---

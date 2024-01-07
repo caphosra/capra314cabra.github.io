@@ -16,7 +16,7 @@ draft: false
 移動: WASD or 矢印キー, 攻撃：クリック
 
 <script src="https://utteranc.es/client.js"
-    repo= "capra314cabra/capra314cabra.github.io"
+    repo= "caphosra/caphosra.github.io"
     issue-term="title"
     label="comments"
     theme="github-light"

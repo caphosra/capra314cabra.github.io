@@ -1,11 +1,11 @@
 ---
-title: "[Today's C# tips] #1 Operate arrays like SQL"
+title: "[C# tips] #1 Operate arrays like SQL"
 date: 2020-03-30T14:15:06+09:00
 description: "This is a first page of the new series, Today's C# tips. I will talk about how to manipulate arrays like SQL."
 keyword: "C#,tips,today,linq,sql"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp"]
-series: ["Todays CSharp tips"]
+series: ["CSharp tips"]
 draft: false
 ---
 

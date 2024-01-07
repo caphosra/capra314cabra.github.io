@@ -3,12 +3,10 @@ title: "Hugoで_index.mdの仕様を変更した話"
 date: 2020-03-12T10:35:31+09:00
 description: "Hugoで_index.mdは標準では限られたコンテンツしか許されていないので、それを改造してみる、という話です。"
 keyword: "hugo,index.md,_index.md,not list,override"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["Hugo"]
 draft: false
 ---
-
-<img src="https://gohugo.io/images/gohugoio-card.png" alt="Hugo Logo" class="center" width="600" height="300" />
 
 今回は、Hugoについてです。  
 `_index.md`は標準では限られたコンテンツしか含めないので、それを改造していきたいと思います。  
@@ -96,8 +94,6 @@ Hugoにおいて、`_index.md`は、他のページへの __道しるべの役�
 |下層ノードでの重複|x|o|
 |記事を含めるか|o|x|
 
-[Hugo Page-Bundles](https://gohugo.io/content-management/page-bundles/)
-
 ## 本編 (~~前置き長すぎ~~)
 
 ここで、当然、疑問として、 __"下層ノードでの重複を許しながら、記事を含んだものを作れるの?"__ というのが浮かびます。  
@@ -107,9 +103,9 @@ Hugoにおいて、`_index.md`は、他のページへの __道しるべの役�
 1. まず、Hugoで作業しているディレクトリに行きます。
 2. 以下のようなディレクトリとファイルを作成します。パスでかけば、`layouts/_default/list.html`です。
 
-<img src="https://capra314cabra.github.io/images/hugo-index-override-exp.jpg" alt="Example directory" class="center" width="240" height="60" />
+<img src="/images/hugo-index-override-exp.jpg" alt="Example directory" class="center" width="240" height="60" />
 
-3. `layouts/_default/list.html`を以下のように書き換えます。
+1. `layouts/_default/list.html`を以下のように書き換えます。
 
 ``` html
 {{ define "title" }}

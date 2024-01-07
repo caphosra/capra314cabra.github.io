@@ -3,7 +3,7 @@ title: "[競プロ]役に立つCompareマクロ"
 date: 2019-12-08T22:24:27+09:00
 description: "競プロでPriorityQueueの型として必要なCompare型を作るのを簡略化した話です。"
 draft: false
-author: capra314cabra
+author: caphosra
 tags: ["CPlusPlus", "Competitive programming"]
 keyword: "競技プログラミング,Compare,C++,Priorityqueue,マクロ"
 ---

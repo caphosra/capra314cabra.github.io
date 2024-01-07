@@ -1,22 +1,22 @@
 ---
-title: "[CTF Writeup]HackIM 2020のWrite up"
+title: "[CTF] Nullcon HackIM 2020 writeup"
 date: 2020-02-09T17:54:45+09:00
 draft: false
-description: "HackIM 2020のWrite upです。解けている問題があまりにも少ないのは、気にしないで下さい..."
+description: "HackIM 2020のwriteupです。解けている問題があまりにも少ないのは、気にしないで下さい..."
 tags: ["CTF"]
 keyword: "CTF,Nullcon,HackIM,2020,Zelda"
 ---
 
-Nullcon HackIM 2020に出たのでそのWrite upでも書こうかなーと思った次第です。
+Nullcon HackIM 2020に出たのでそのwriteupでも書こうかなーと思った次第です。
 
 結論から申し上げますと、解けた問題は**1**問です...(しかも、その問題はコピペするだけ)
 
-ただ、そんなのではWrite upとして意味をなさないので、競技終了後も作業していました。  
+ただ、そんなのではwriteupとして意味をなさないので、競技終了後も作業していました。  
 結局ZeldaAdventureの最初の1問を解くことができたのでそれをここに載せます。
 
 ### 問題の見た目
 
-<img src="https://capra314cabra.github.io/images/hackim2020-game.jpg" alt="Game scene" class="center" width="500" height="300" />
+<img src="/images/hackim2020-game.jpg" alt="Game scene" class="center" width="500" height="300" />
 
 Unity製のGameで、このNPC(白い敵)を1体以上倒すとFlagを手に入れられる、とあります。  
 Playerは剣と体当たり(接触)することでNPCにダメージを与えられますが、敵のHPがとても高く、現実的な時間に倒せないようになっています。

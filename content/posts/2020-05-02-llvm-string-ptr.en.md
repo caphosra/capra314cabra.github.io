@@ -3,7 +3,7 @@ title: "[LLVM] How to solve CreateGlobalStringPtr crash"
 date: 2020-05-02T07:51:32+09:00
 description: "I encountered the situaton that CreateGlobalStringPtr failed in the block of if statement, so I will introduce the way to solve it."
 keyword: "CreateGlobalStringPtr,LLVM,crash,failed,error"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["LLVM", "CPlusPlus"]
 draft: false
 ---

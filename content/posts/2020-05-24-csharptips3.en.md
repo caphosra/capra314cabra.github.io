@@ -1,11 +1,11 @@
 ---
-title: "[Today's C# Tips] #3 Run C# in interactive ways"
+title: "[C# tips] #3 Run C# in interactive ways"
 date: 2020-05-24T06:35:55+09:00
 description: "You may use Python to do simple calculations. It's very convenient to run interactively. But the same thing can be done with C#."
 keyword: "C#,tips,today,interactive,interpret"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp"]
-series: ["Todays CSharp tips"]
+series: ["CSharp tips"]
 draft: false
 ---
 

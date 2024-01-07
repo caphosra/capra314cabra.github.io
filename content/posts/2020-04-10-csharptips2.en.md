@@ -1,15 +1,15 @@
 ---
-title: "[Today's C# tips] #2 Access private members"
+title: "[C# tips] #2 Access private members"
 date: 2020-05-02T17:58:27+09:00
 description: "I will tell you how to use System.Reflection to access private members."
 keyword: "C#,tips,today,reflection,system"
-author: "capra314cabra"
+author: "caphosra"
 tags: ["CSharp"]
-series: ["Todays CSharp tips"]
+series: ["CSharp tips"]
 draft: false
 ---
 
-I introduced C# Linq on the previous article [#1](https://capra314cabra.github.io/en/posts/2020-03-20-onepoint-csharp/).  
+I introduced C# Linq on the previous article [#1]({{< ref "/posts/2020-03-20-onepoint-csharp" >}}).  
 Today's theme is "Access private members".
 
 ## Attention
@@ -120,7 +120,7 @@ var passwordVal = members // FieldInfo[]
 Console.WriteLine((float)passwordVal); // Cast to float
 ```
 
-(capra314cabra's note: Strictly speaking, the return value of `GetValue` is `object?` but not `object`. I will introduce how `?` works later.)
+(Note: Strictly speaking, the return value of `GetValue` is `object?` but not `object`. I will introduce how `?` works later.)
 
 ```
 $ dotnet run
