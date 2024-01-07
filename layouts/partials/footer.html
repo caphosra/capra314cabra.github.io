@@ -9,7 +9,7 @@
         {{ else }}
         © {{ now.Year }}
         {{ end }}
-        {{ if .Site.Params.Author }} <a href="https://github.com/capra314cabra">{{ .Site.Params.Author }}</a> {{ end }}
+        {{ if .Site.Params.Author }} {{ .Site.Params.Author }} {{ end }}
         {{ end }}
     </section>
 </footer>
