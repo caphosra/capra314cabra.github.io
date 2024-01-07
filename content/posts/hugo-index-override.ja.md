@@ -8,8 +8,6 @@ tags: ["Hugo"]
 draft: false
 ---
 
-<img src="https://gohugo.io/images/gohugoio-card.png" alt="Hugo Logo" class="center" width="600" height="300" />
-
 今回は、Hugoについてです。  
 `_index.md`は標準では限られたコンテンツしか含めないので、それを改造していきたいと思います。  
 そもそも`_index.md`とは?というところにも触れるので、`_index.md`と`index.md`の仕様に疑問がある方は必見です。
@@ -95,8 +93,6 @@ Hugoにおいて、`_index.md`は、他のページへの __道しるべの役�
 |:-----|:-----:|:-----:|
 |下層ノードでの重複|x|o|
 |記事を含めるか|o|x|
-
-[Hugo Page-Bundles](https://gohugo.io/content-management/page-bundles/)
 
 ## 本編 (~~前置き長すぎ~~)
 
