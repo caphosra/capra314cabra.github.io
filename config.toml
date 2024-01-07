@@ -1,5 +1,5 @@
 
-baseurl = "https://www.caphosra.net"
+baseurl = "https://caphosra.net"
 title = "caphosra note"
 
 theme = "hugo-coder"
