@@ -286,4 +286,3 @@ In conclusion, all we have to do is to remember this sentence:
 ## Full code
 
 https://gist.github.com/caphosra/9cd38e8658bb2d07cb9306b73435fada
-

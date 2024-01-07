@@ -14,8 +14,8 @@ WebGLで作られているゲームはスマホではプレイできないので
 
 ## Aimed Thief
 
-<a href="https://caphosra.github.io/archives/aimed-thief">
-    <img src="https://caphosra.github.io/images/archives/aimed-thief-thumb.png" alt="Aimed Thief Thumbnail" class="center" width="640" height="360" />
+<a href="{{< ref "/archives/aimed-thief" >}}">
+    <img src="/images/archives/aimed-thief-thumb.png" alt="Aimed Thief Thumbnail" class="center" width="640" height="360" />
 </a>
 
 横スクロールのシューティングゲームです。  
@@ -26,8 +26,8 @@ WebGLで作られているゲームはスマホではプレイできないので
 
 ## 混沌の格闘家
 
-<a href="https://caphosra.github.io/archives/fighter-of-chaos">
-    <img src="https://caphosra.github.io/images/archives/fighter-of-chaos-thumb.png" alt="Fighter Of Chaos Thumbnail" class="center" width="640" height="360" />
+<a href="{{< ref "/archives/fighter-of-chaos" >}}">
+    <img src="/images/archives/fighter-of-chaos-thumb.png" alt="Fighter Of Chaos Thumbnail" class="center" width="640" height="360" />
 </a>
 
 横スクロールのアクションゲームです。  
@@ -36,8 +36,8 @@ WebGLで作られているゲームはスマホではプレイできないので
 
 ## GATAGATA Mental Shooting
 
-<a href="https://caphosra.github.io/archives/gatagata">
-    <img src="https://caphosra.github.io/images/archives/gatagata-thumb.jpg" alt="GATAGATA Mental Shooting Thumbnail" class="center" width="640" height="360" />
+<a href="{{< ref "/archives/gatagata" >}}">
+    <img src="/images/archives/gatagata-thumb.jpg" alt="GATAGATA Mental Shooting Thumbnail" class="center" width="640" height="360" />
 </a>
 
 2Dのシューティングゲームです。  

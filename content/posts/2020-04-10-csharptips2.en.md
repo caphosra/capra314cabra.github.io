@@ -9,7 +9,7 @@ series: ["CSharp tips"]
 draft: false
 ---
 
-I introduced C# Linq on the previous article [#1](https://caphosra.github.io/en/posts/2020-03-20-onepoint-csharp/).  
+I introduced C# Linq on the previous article [#1]({{< ref "/posts/2020-03-20-onepoint-csharp" >}}).  
 Today's theme is "Access private members".
 
 ## Attention
