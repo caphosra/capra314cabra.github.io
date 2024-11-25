@@ -21,7 +21,7 @@
       {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
     {{ end }}
 
-    {{ template "_internal/twitter_cards.html" . }}
+    {{ partial "twitter.html" . }}
     {{ template "_internal/opengraph.html" . }}
 
     {{ if .Permalink }}
@@ -34,11 +34,8 @@
     {{ end }}
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" onload="hljs.initHighlightingOnLoad();" async></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
+
+    <style defer>
       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
     </style>
 
@@ -81,7 +78,7 @@
     {{ end }}
 
     {{ range .Site.Params.custom_js }}
-      <script src="{{ . | relURL }}" async></script>
+      <script src="{{ . | relURL }}" defer></script>
     {{ end }}
 
     {{ range .Site.Params.custom_scss }}
@@ -120,9 +117,6 @@
     {{ $csClass = "colorscheme-auto" }}
   {{ end }}
   <body class="{{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}">
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e930c5ad359121c" async></script>
-
     <main class="wrapper">
       {{ partial "header.html" . }}
 
@@ -132,9 +126,6 @@
 
       {{ partial "footer.html" . }}
     </main>
-
-    {{ template "_internal/google_analytics.html" . }}
-
   </body>
 
 </html>

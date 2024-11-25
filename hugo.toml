@@ -7,7 +7,6 @@ theme = "hugo-coder"
 languagecode = "ja"
 defaultcontentlanguage = "ja"
 
-paginate = 20
 canonifyurls = true
 
 pygmentsstyle = "b2"
@@ -54,10 +53,10 @@ enableRobotsTXT = true
     favicon_32 = "images/logo/favicon-32x32.png"
 
     # Custom CSS
-    custom_css = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/vs2015.min.css"]
+    custom_css = []
 
     # Custom JS
-    custom_js = ["https://cdn.jsdelivr.net/npm/gist-embed@1.0.3/dist/gist-embed.min.js", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"]
+    custom_js = ["https://cdn.jsdelivr.net/npm/gist-embed@1.0.3/dist/gist-embed.min.js"]
 
 [params.utteranc]
     repo = "caphosra/caphosra.github.io"
@@ -84,6 +83,25 @@ enableRobotsTXT = true
     url = "https://caphosra.github.io/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
+
+
+
+[pagination]
+    pagerSize = 20
+
+[markup]
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = false
+        lineAnchors = ''
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        noHl = false
+        style = "doom-one2"
+        tabWidth = 4
 
 [languages]
     [languages.ja]
