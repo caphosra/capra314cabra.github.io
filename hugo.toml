@@ -58,7 +58,7 @@ enableRobotsTXT = true
     # Custom JS
     custom_js = ["https://cdn.jsdelivr.net/npm/gist-embed@1.0.3/dist/gist-embed.min.js"]
 
-[params.utteranc]
+[params.utterances]
     repo = "caphosra/caphosra.github.io"
 
 [taxonomies]
